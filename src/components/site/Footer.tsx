@@ -3,6 +3,7 @@
 import { SocialIcon } from "@/types/SocialIcon"
 import { Separator } from "../ui/separator"
 import { SocialLink } from "./SocialLink"
+import { SectionContent } from "../SectionContent"
 
 export const Footer = () => {
 

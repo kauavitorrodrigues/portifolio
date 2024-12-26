@@ -26,26 +26,26 @@ export const Projects = () => {
 const ProjectsList: Project[] = [
     {
         title: "FLOWE",
-        description: "FLOWE is an exclusive professional club focused on innovation and technology. The initiative is designed to develop talent and connect them with companies seeking high-performance professionals. Through a structured and strategic approach, it aligns individual skills and goals with the real demands of the market.",
+        description: "FLOWE is a professional club focused on innovation and technology, designed to develop talent and connect professionals with companies seeking high-performance individuals.",
         cover: "assets/projects/flowe.png",
         link: "https://flowehub.com/"
     },
     {
-        title: "Project 2",
-        description: "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
-        cover: "https://images.pexels.com/photos/29078815/pexels-photo-29078815/free-photo-of-passeio-panoramico-de-teleferico-sobre-paisagens-montanhosas-acidentadas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        link: "https://www.google.com"
+        title: "Personal Portfolio",
+        description: "This project is a portfolio landing page, focusing on planning the structure, organizing sections, and creating a professional design to clearly highlight projects, skills, and experiences.",
+        cover: "assets/projects/simple-portifolio.png",
+        link: "https://smple-portifolio.vercel.app/"
     },
     {
-        title: "Project 3",
-        description: "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
-        cover: "https://images.pexels.com/photos/29508060/pexels-photo-29508060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        link: "https://www.google.com"
+        title: "Gesconver",
+        description: "The ERP/CRM system at GESCONVER was enhanced with new features and performance optimizations, improving user experience and better meeting client needs.",
+        cover: "assets/projects/gesconver.png",
+        link: "https://gesconver.com.br/"
     },
     {
-        title: "Project 4",
-        description: "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
-        cover: "https://images.pexels.com/photos/164336/pexels-photo-164336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        link: "https://www.google.com"
+        title: "SearchX",
+        description: "SearchX continuously monitors data leaks, compares them to personal information, and alerts users if their data is compromised. It also provides OSINT tools to help protect privacy.",
+        cover: "assets/projects/searchx.png",
+        link: "/"
     }
 ];

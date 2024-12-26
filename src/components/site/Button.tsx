@@ -11,14 +11,14 @@ export const Button = ({ label } : Props ) => {
 
         <motion.div
             whileHover={{
-                scale: 1.1, // Aumenta o card
-                rotate: -1, // Dá uma leve rotação
-                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.10)", // Adiciona sombra ao hover
+                scale: 1.1,
+                rotate: -1,
+                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.10)",
             }}
             transition={{
-                duration: 0.3, // Duração da animação
-                type: "spring", // Tipo de transição suave
-                stiffness: 200, // Define a elasticidade
+                duration: 0.3,
+                type: "spring",
+                stiffness: 200,
             }}    
             className="w-fit" 
         >

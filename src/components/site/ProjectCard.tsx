@@ -42,7 +42,7 @@ export const ProjectCard = ({ title, description, cover, link }: Project) => {
                 <motion.img 
                     src={cover} 
                     alt={title}
-                    className="rounded-xl h-72 w-full object-cover"
+                    className="rounded-xl h-72 w-full "
                 />
 
             </motion.div>
