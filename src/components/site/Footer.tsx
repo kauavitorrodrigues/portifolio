@@ -3,7 +3,6 @@
 import { SocialIcon } from "@/types/SocialIcon"
 import { Separator } from "../ui/separator"
 import { SocialLink } from "./SocialLink"
-import { SectionContent } from "../SectionContent"
 
 export const Footer = () => {
 
@@ -45,7 +44,7 @@ export const Footer = () => {
 
 }
 
-const SocialIcons: SocialIcon[] = [
+export const SocialIcons: SocialIcon[] = [
     {
         icon: "assets/logos/instagram.svg",
         link: "https://www.instagram.com/kauavferraz/"

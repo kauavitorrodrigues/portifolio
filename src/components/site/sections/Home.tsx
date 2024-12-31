@@ -2,7 +2,8 @@
 
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { Button } from "../Button";
+import { SocialLink } from "../SocialLink";
+import { SocialIcons } from "../Footer";
 
 export const Home = () => {
 
@@ -50,16 +51,26 @@ export const Home = () => {
 
                             wrapper="span"
                             speed={50}
+                            className="font-mono"
 
                         />
 
                     </motion.div>
 
+
                 </div>
 
             </div>
 
-            <Button/>
+            <div className="flex gap-2">
+                { SocialIcons.map((icon, index) => (
+                    <SocialLink 
+                        key={index} 
+                        icon={icon.icon} 
+                        link={icon.link}
+                    />
+                ))}
+            </div>
 
         </motion.section>
 
