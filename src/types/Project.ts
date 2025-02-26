@@ -3,4 +3,6 @@ export type Project = {
     description: string;
     cover: string;
     link: string;
+    skills: string[];
+    cardPosition: "left" | "right";
 };

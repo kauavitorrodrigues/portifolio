@@ -5,6 +5,7 @@ import { ReactNode, useEffect, useRef } from "react";
 
 type Props = {
     children: ReactNode;
+    isFullWidth?: boolean;
 };
 
 export const SectionContent = ({ children } : Props ) => {
